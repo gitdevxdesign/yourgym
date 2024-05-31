@@ -8,19 +8,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Web Design Mastery | Fitclub</title>
+    <title>YourGym</title>
   </head>
   <body>
     <nav>
       <div class="nav__logo">
-        <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+        <!-- <a href="#"><img src="assets/logo.png" alt="logo" /></a> -->
+        <h1 style="color: beige;">YourGYM</h1>
       </div>
       <ul class="nav__links">
-        <li class="link"><a href="#">Home</a></li>
-        <li class="link"><a href="#">Program</a></li>
-        <li class="link"><a href="#">Service</a></li>
-        <li class="link"><a href="#">About</a></li>
-        <li class="link"><a href="#">Community</a></li>
+        <li class="link" id="#"><a href="#">Home</a></li>
+        <li class="link" id="#"><a href="#program">Program</a></li>
+        <li class="link" id="#"><a href="#pricing">Pricing</a></li>
+        <li class="link" id="#"><a href="#">Community</a></li>
       </ul>
       <button class="btn">Join Now</button>
     </nav>
@@ -39,11 +39,11 @@
         <button class="btn">Get Started</button>
       </div>
       <div class="header__image">
-        <img src="assets/header.png" alt="header" />
+        <img src="assets/header1.png" alt="header" />
       </div>
     </header>
 
-    <section class="section__container explore__container">
+    <section class="section__container explore__container" id="program">
       <div class="explore__header">
         <h2 class="section__header">EXPLORE OUR PROGRAM</h2>
         <div class="explore__nav">
@@ -91,7 +91,7 @@
       </div>
     </section>
 
-    <section class="section__container class__container">
+    <section class="section__container class__container" id="About">
       <div class="class__image">
         <span class="bg__blur"></span>
         <img src="assets/class-1.jpg" alt="class" class="class__img-1" />
@@ -145,7 +145,7 @@
       </div>
     </section>
 
-    <section class="section__container price__container">
+    <section class="section__container price__container" id="pricing">
       <h2 class="section__header">OUR PRICING PLAN</h2>
       <p class="section__subheader">
         Our pricing plan comes with various membership tiers, each tailored to
@@ -155,7 +155,7 @@
         <div class="price__card">
           <div class="price__card__content">
             <h4>Basic Plan</h4>
-            <h3>$16</h3>
+            <h3>1600</h3>
             <p>
               <i class="ri-checkbox-circle-line"></i>
               Smart workout plan
@@ -170,7 +170,7 @@
         <div class="price__card">
           <div class="price__card__content">
             <h4>Weekly Plan</h4>
-            <h3>$25</h3>
+            <h3>2500</h3>
             <p>
               <i class="ri-checkbox-circle-line"></i>
               PRO Gyms
@@ -189,7 +189,7 @@
         <div class="price__card">
           <div class="price__card__content">
             <h4>Monthly Plan</h4>
-            <h3>$45</h3>
+            <h3>4000</h3>
             <p>
               <i class="ri-checkbox-circle-line"></i>
               ELITE Gyms & Classes
@@ -236,12 +236,12 @@
             <span><i class="ri-star-half-fill"></i></span>
           </div>
           <div class="review__footer">
-            <div class="review__member">
+            <!-- <div class="review__member">
               <img src="assets/member.jpg" alt="member" />
               <div class="review__member__details">
                 <h4>Jane Cooper</h4>
                 <p>Software Developer</p>
-              </div>
+              </div> -->
             </div>
             <div class="review__nav">
               <span><i class="ri-arrow-left-line"></i></span>
@@ -288,8 +288,8 @@
         <a href="#">BMI Calculator</a>
       </div>
     </footer>
-    <div class="footer__bar">
+    <!-- <div class="footer__bar">
       Copyright © 2023 Web Design Mastery. All rights reserved.
-    </div>
+    </div> -->
   </body>
 </html>
